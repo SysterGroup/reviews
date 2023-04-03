@@ -2,6 +2,7 @@
 title:  "A Review On *Every Walk's a Hit: Making Page Walks Single-Access Cache Hits*"
 layout: post
 mathjax: true
+comments: true
 ---
 
 
