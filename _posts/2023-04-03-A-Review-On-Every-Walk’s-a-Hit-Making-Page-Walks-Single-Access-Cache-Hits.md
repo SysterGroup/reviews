@@ -17,6 +17,9 @@ Based on this facts, this paper shortens page table to reduce number of main mem
 
 The contribution of this paper is a scalable solution for large memory footprint.  In the exsiting system,  page walk caches buffer the latest translation of each page table level.  However, cache-based solutions are limited by the organisation of caches, and the coverage may get outstripped.  This paper proposes a promising method to reduce memory accesses during translation,  increasing the performance gain aside from outstripped cache overage.
 
+
+
+
 ## Background
 
 Memory is managed into multiple pages by operating system.  For a memory access in modern computer system,  processors first accept a virtual address and translate it to physical address by querying the page tables organized by operating system.
