@@ -5,7 +5,7 @@ layout: page
 ---
 
 
-![](https://i.imgur.com/g3vPGSx.png)
+![](../assets/logo/SYSTER-logo-1.png)
 
 We are Syster - **SYS**tem and **T**echnology **E**nthusiasts **R**eading group
 
