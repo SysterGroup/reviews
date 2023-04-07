@@ -13,12 +13,12 @@ comments: true
 
 Page tables with multiple levels give a big range of memory mapping.  Yet this design makes memory accesses slower with more accesses of page table entries.  In a modern 4-level page tables, walking through all the page tables may cause 5 times more memory accesses in worst case.
 
+
+
+
 Based on this facts, this paper shortens page table to reduce number of main memory accesses and keeps page table entries in the CPU cache for quicker page walks.  (Quoted from [the poster](https://iamchanghyunpark.github.io/slides/ASPLOS22-FlattenPrioritize-Poster.pdf))  The authors claim to yields 9.2% performance gain.
 
 The contribution of this paper is a scalable solution for large memory footprint.  In the exsiting system,  page walk caches buffer the latest translation of each page table level.  However, cache-based solutions are limited by the organisation of caches, and the coverage may get outstripped.  This paper proposes a promising method to reduce memory accesses during translation,  increasing the performance gain aside from outstripped cache overage.
-
-
-
 
 ## Background
 
